@@ -1,7 +1,7 @@
 # SQL Queries - Chicago Taxi Analysis
 
 ## Database Structure
-Schema diagram.png
+[Schema diagram.png](https://github.com/Jesus12345678910/chicago-taxi-analysis/blob/main/sql_queries/Schema%20diagram.png)
 
 ## Query Files Description
 - `01_data_exploration.sql`: Initial data exploration queries
