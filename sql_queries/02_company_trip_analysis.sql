@@ -1,3 +1,5 @@
+-- amount of trips of each company whose name contains words yellow or blue in november
+
 SELECT
     cabs.company_name AS company_name,
     COUNT (trips.trip_id) AS trips_amount
@@ -15,6 +17,7 @@ ORDER BY
     trips_amount DESC;
 
 *************************************************************************
+-- amount of trips of top companies and group the rest of companies as name other
 SELECT
     CASE 
         WHEN company_name = 'Flash Cab' THEN  'Flash Cab'
