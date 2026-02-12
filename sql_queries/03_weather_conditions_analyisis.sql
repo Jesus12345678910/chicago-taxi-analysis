@@ -1,3 +1,5 @@
+-- group weather conditions as bad in case of rain or storm, the rest as good condition
+
 SELECT
     ts,
     CASE
