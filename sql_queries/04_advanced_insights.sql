@@ -1,3 +1,5 @@
+--show trips where pickup_location_id: 50 and dropoff_location_id: 63, obtain weather conditions and duration of each trip
+
 SELECT 
     start_ts,
         CASE 
